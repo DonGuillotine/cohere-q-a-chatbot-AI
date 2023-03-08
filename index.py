@@ -1,10 +1,9 @@
 import streamlit as st
 from main import CoHere
-from decouple import config
 
 st.header('A Cohere Powered Application')
 
-api_key = config('API_KEY')
+api_key = st.text_input('OpenAI API Key:', type='password')
 
 st.header('Your Personal chat bot - Donald!')
 

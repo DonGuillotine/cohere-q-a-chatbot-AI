@@ -4,14 +4,14 @@ from decouple import config
 
 # Writing a prompt for my model
 def myPrompt(question):
-    return 'You are a chatbot that answers questions:' + question
+    return 'You are a chatbot that answers questions:'
 
 
 # Providing API Key Credentials
 class CoHere:
     def __init__(self, api_key):
         api_key = config('API_KEY')
-        self.co = cohere.Client(api_key, '2021-11-08')
+        self.co = cohere.Client(api_key)
 
 
 # A method to generate a text
