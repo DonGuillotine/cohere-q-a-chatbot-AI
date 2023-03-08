@@ -6,3 +6,6 @@ from main import CoHere
 st.header('A Co:here Powered Application')
 
 api_key = st.text_input('OpenAI API Key:', type='password')
+
+st.header('Your Personal chat bot - Donald!')
+
