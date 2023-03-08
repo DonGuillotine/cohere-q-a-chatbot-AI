@@ -1,10 +1,17 @@
 import cohere
-from secrets import secrets;
+from decouple import config
+
+
+# Writing a prompt for my model
+def myPrompt(question):
+    return 'You are a chatbot that answers questions:' + question
+
 
 # Providing API Key Credentials
 class CoHere:
     def __init__(self, api_key):
-        self.co = cohere.Client('API_KEY', '2021-11-08')
+        api_key = config('API_KEY')
+        self.co = cohere.Client(api_key, '2021-11-08')
 
 
 # A method to generate a text
@@ -15,8 +22,3 @@ class CoHere:
             max_tokens=50,
             temperature=1
         ).generations[0].text
-    
-
-# Writing a prompt for my model
-    def myPrompt(question):
-        return 'Donald is a chatbot that answers questions:'
