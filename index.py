@@ -9,3 +9,5 @@ api_key = st.text_input('OpenAI API Key:', type='password')
 
 st.header('Your Personal chat bot - Donald!')
 
+question_for_donald = st.text_input('Question for Donald')
+
