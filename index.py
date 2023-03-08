@@ -11,3 +11,7 @@ st.header('Your Personal chat bot - Donald!')
 
 question_for_donald = st.text_input('Question for Donald')
 
+cohere = CoHere(api_key)
+
+if st.button('Answer'):
+    st.write(cohere.cohere(question_for_donald))
