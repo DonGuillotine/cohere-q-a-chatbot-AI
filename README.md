@@ -5,14 +5,14 @@ This Q&A chatbot is built using Cohere, Streamlit and Python programming languag
 
 ![Screenshot (144)](https://user-images.githubusercontent.com/89584431/224037382-86fb1abe-191d-4afd-a0fd-71343f081f77.png)
 
-Requirements
-------------
+Technologies Used
+-----------------
 
-To run the Q&A chatbot, you will need to have the following installed:
+The following technologies were used to build the Q&A Chatbot:
 
--   Python 3
--   Cohere API key
--   Streamlit
+-   Cohere: An NLP platform that allows developers to build conversational interfaces.
+-   Streamlit: An open-source framework used to build interactive web applications.
+-   Python: A programming language used for building various applications.
 
 Features
 --------
@@ -33,3 +33,8 @@ To get started, you will need to install the following dependencies:
 
 Once you have installed the dependencies, you can run the chatbot using the following command:
 `streamlit run index.py`
+
+Conclusion
+----------
+
+Overall, the Q&A Chatbot is a powerful tool that can answer user questions related to a specific topic with high accuracy. Its natural language processing capabilities and interactive interface make it easy for users to get the information they need quickly and efficiently.
