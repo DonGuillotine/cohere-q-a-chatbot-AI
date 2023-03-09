@@ -3,6 +3,8 @@ Q&A Chatbot with Cohere, Streamlit and Python
 
 This Q&A chatbot is built using Cohere, Streamlit and Python programming language. Cohere is a powerful natural language processing API that allows us to build conversational AI systems quickly and easily. Streamlit is a web application framework for building and deploying data-driven applications quickly.
 
+![Screenshot (144)](https://user-images.githubusercontent.com/89584431/224037382-86fb1abe-191d-4afd-a0fd-71343f081f77.png)
+
 Features
 --------
 
